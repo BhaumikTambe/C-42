@@ -31,15 +31,15 @@ class Game {
         
             car1 = createSprite(100,200);
             car1.addImage("car1",car1_img);
-            car1.debug = true;
+            car1.debug = false;
             car2 = createSprite(300,200);
             car2.addImage("car2",car2_img);
-            car2.debug = true;
+            car2.debug = false;
             car3 = createSprite(500,200);
             car3.addImage("car3",car3_img);
-            car3.debug = true;
+            car3.debug = false;
             car4 = createSprite(700,200);
-            car4.debug = true;
+            car4.debug = false;
             car4.addImage("car4",car4_img);
             cars = [car1, car2, car3, car4];
           }
